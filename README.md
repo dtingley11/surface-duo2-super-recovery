@@ -203,7 +203,6 @@ First boot can take several minutes.
 
 - Do not relock the bootloader until the phone boots reliably and all flashed images are stock and from the same build.
 - Relocking immediately after this recovery is risky. A locked bootloader requires AVB to verify the boot chain and logical partitions cleanly. Boot Android first, confirm the active slot is stable, then install an official OTA normally if possible before considering relock.
-- Do not flash images from mixed payload extraction folders.
 - Do not manually create physical `system`, `vendor`, `product`, `system_ext`, or `odm` partitions.
 - Back up `persist`, `modemst1`, `modemst2`, `fsg`, `fsc`, and GPT data after recovery.
 
