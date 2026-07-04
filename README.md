@@ -39,7 +39,7 @@ Tool links:
 
 - Android SDK Platform Tools, for `adb` and `fastboot`: https://developer.android.com/tools/releases/platform-tools
 - AOSP dynamic partition docs, for `lpmake`/`lpdump` concepts: https://source.android.com/docs/core/ota/dynamic_partitions
-- Python payload dumper used during this recovery: https://github.com/vm03/payload_dumper
+- Python payload dumper used during my recovery: https://github.com/vm03/payload_dumper
 - Go payload dumper alternative: https://github.com/ssut/payload-dumper-go
 - Protocol Buffers / `protoc`: https://github.com/protocolbuffers/protobuf
 
@@ -179,7 +179,7 @@ vendor_a
 
 ## 6. Flash
 
-Bootloader fastboot worked for our recovery:
+Bootloader fastboot worked for my recovery:
 
 ```bash
 fastboot flash super work/super-duo2-slot-a.img
