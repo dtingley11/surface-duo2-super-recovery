@@ -1,6 +1,6 @@
 # Surface Duo 2 Super Partition Recovery
 
-Copy-paste friendly steps to rebuild and flash a Microsoft Surface Duo 2 `super.img` from an official OTA package.
+Steps to rebuild and flash a Microsoft Surface Duo 2 `super.img` from an official OTA package.
 
 This is for the case where the physical `super` partition still exists, but the logical partitions inside it are broken or from the wrong device.
 
