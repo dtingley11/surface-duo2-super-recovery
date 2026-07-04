@@ -1,0 +1,8 @@
+work/
+*.img
+*.raw
+*.bin
+*.zip
+*.pb
+__pycache__/
+
