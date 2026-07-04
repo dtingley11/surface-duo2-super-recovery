@@ -33,7 +33,17 @@ You also need:
 
 - An unlocked bootloader.
 - The Microsoft Surface Duo 2 OTA `.zip`.
-- A payload dumper, such as `payload_dumper.py`.
+- A payload dumper, such as `payload_dumper.py` or `payload-dumper-go`.
+
+Tool links:
+
+- Android SDK Platform Tools, for `adb` and `fastboot`: https://developer.android.com/tools/releases/platform-tools
+- AOSP dynamic partition docs, for `lpmake`/`lpdump` concepts: https://source.android.com/docs/core/ota/dynamic_partitions
+- Python payload dumper used during this recovery: https://github.com/vm03/payload_dumper
+- Go payload dumper alternative: https://github.com/ssut/payload-dumper-go
+- Protocol Buffers / `protoc`: https://github.com/protocolbuffers/protobuf
+
+See [docs/tools.md](docs/tools.md) for package hints.
 
 ## 1. Confirm The Device
 
@@ -201,4 +211,4 @@ First boot can take several minutes.
 - Android dynamic partitions: https://source.android.com/docs/core/ota/dynamic_partitions
 - Implement dynamic partitions: https://source.android.com/docs/core/ota/dynamic_partitions/implement
 - Userspace fastboot / fastbootd: https://source.android.com/docs/core/architecture/bootloader/fastbootd
-
+- Android SDK Platform Tools: https://developer.android.com/tools/releases/platform-tools
